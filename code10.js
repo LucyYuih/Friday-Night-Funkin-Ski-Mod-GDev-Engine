@@ -1,82 +1,142 @@
-gdjs.PauseCode = {};
-gdjs.PauseCode.localVariables = [];
-gdjs.PauseCode.idToCallbackMap = new Map();
-gdjs.PauseCode.GDStatisticsObjects1= [];
-gdjs.PauseCode.GDStatisticsObjects2= [];
-gdjs.PauseCode.GDComboNumbersObjects1= [];
-gdjs.PauseCode.GDComboNumbersObjects2= [];
-gdjs.PauseCode.GDNotesSplashObjects1= [];
-gdjs.PauseCode.GDNotesSplashObjects2= [];
-gdjs.PauseCode.GDfpsObjects1= [];
-gdjs.PauseCode.GDfpsObjects2= [];
-gdjs.PauseCode.GDEngineTextObjects1= [];
-gdjs.PauseCode.GDEngineTextObjects2= [];
-gdjs.PauseCode.GDLongUpscrollBFObjects1= [];
-gdjs.PauseCode.GDLongUpscrollBFObjects2= [];
-gdjs.PauseCode.GDLongUpscrollOPPObjects1= [];
-gdjs.PauseCode.GDLongUpscrollOPPObjects2= [];
-gdjs.PauseCode.GDHitboxLeftObjects1= [];
-gdjs.PauseCode.GDHitboxLeftObjects2= [];
-gdjs.PauseCode.GDHitboxDownObjects1= [];
-gdjs.PauseCode.GDHitboxDownObjects2= [];
-gdjs.PauseCode.GDHitboxUpObjects1= [];
-gdjs.PauseCode.GDHitboxUpObjects2= [];
-gdjs.PauseCode.GDhitrightObjects1= [];
-gdjs.PauseCode.GDhitrightObjects2= [];
-gdjs.PauseCode.GDBFIconObjects1= [];
-gdjs.PauseCode.GDBFIconObjects2= [];
-gdjs.PauseCode.GDPauseButtonObjects1= [];
-gdjs.PauseCode.GDPauseButtonObjects2= [];
-gdjs.PauseCode.GDPauseButton2Objects1= [];
-gdjs.PauseCode.GDPauseButton2Objects2= [];
-gdjs.PauseCode.GDBlackScreenObjects1= [];
-gdjs.PauseCode.GDBlackScreenObjects2= [];
-gdjs.PauseCode.GDPauseTextObjects1= [];
-gdjs.PauseCode.GDPauseTextObjects2= [];
-gdjs.PauseCode.GDExitTextObjects1= [];
-gdjs.PauseCode.GDExitTextObjects2= [];
-gdjs.PauseCode.GDRestartTextObjects1= [];
-gdjs.PauseCode.GDRestartTextObjects2= [];
-gdjs.PauseCode.GDmisses_9595challenge_9595textObjects1= [];
-gdjs.PauseCode.GDmisses_9595challenge_9595textObjects2= [];
-gdjs.PauseCode.GDBfUpNoteObjects1= [];
-gdjs.PauseCode.GDBfUpNoteObjects2= [];
-gdjs.PauseCode.GDBfDownNoteObjects1= [];
-gdjs.PauseCode.GDBfDownNoteObjects2= [];
-gdjs.PauseCode.GDBfLeftNoteObjects1= [];
-gdjs.PauseCode.GDBfLeftNoteObjects2= [];
-gdjs.PauseCode.GDBfLeftNote4Objects1= [];
-gdjs.PauseCode.GDBfLeftNote4Objects2= [];
-gdjs.PauseCode.GDBfDownNote5Objects1= [];
-gdjs.PauseCode.GDBfDownNote5Objects2= [];
-gdjs.PauseCode.GDBfUpNote6Objects1= [];
-gdjs.PauseCode.GDBfUpNote6Objects2= [];
-gdjs.PauseCode.GDBfRightNoteObjects1= [];
-gdjs.PauseCode.GDBfRightNoteObjects2= [];
-gdjs.PauseCode.GDBfRightNote7Objects1= [];
-gdjs.PauseCode.GDBfRightNote7Objects2= [];
-gdjs.PauseCode.GDOppIconObjects1= [];
-gdjs.PauseCode.GDOppIconObjects2= [];
-gdjs.PauseCode.GDtimerBarObjects1= [];
-gdjs.PauseCode.GDtimerBarObjects2= [];
-gdjs.PauseCode.GDtimeObjects1= [];
-gdjs.PauseCode.GDtimeObjects2= [];
-gdjs.PauseCode.GDtimerBar2Objects1= [];
-gdjs.PauseCode.GDtimerBar2Objects2= [];
-gdjs.PauseCode.GDRatinsPopUpObjects1= [];
-gdjs.PauseCode.GDRatinsPopUpObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode = {};
+gdjs.All_32songs_32Death_32SceneCode.localVariables = [];
+gdjs.All_32songs_32Death_32SceneCode.idToCallbackMap = new Map();
+gdjs.All_32songs_32Death_32SceneCode.GDRestartObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDRestartObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDYesObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDYesObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDNoObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDNoObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBackObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBackObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDbflolObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDbflolObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDStatisticsObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDStatisticsObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDComboNumbersObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDComboNumbersObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDNotesSplashObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDNotesSplashObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDfpsObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDfpsObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDEngineTextObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDEngineTextObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDLongUpscrollBFObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDLongUpscrollBFObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDLongUpscrollOPPObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDLongUpscrollOPPObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxLeftObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxLeftObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxDownObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxDownObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxUpObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxUpObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDhitrightObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDhitrightObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBFIconObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBFIconObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDPauseButtonObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDPauseButtonObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDPauseButton2Objects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDPauseButton2Objects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBlackScreenObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBlackScreenObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDPauseTextObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDPauseTextObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDExitTextObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDExitTextObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDRestartTextObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDRestartTextObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDmisses_9595challenge_9595textObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDmisses_9595challenge_9595textObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBfUpNoteObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBfUpNoteObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBfDownNoteObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBfDownNoteObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBfLeftNoteObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBfLeftNoteObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBfRightNoteObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDBfRightNoteObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDOppIconObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDOppIconObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDtimerBarObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDtimerBarObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDtimeObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDtimeObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDtimerBar2Objects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDtimerBar2Objects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDRatinsPopUpObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDRatinsPopUpObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDLongNoteObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDLongNoteObjects2= [];
 
 
-gdjs.PauseCode.eventsList0 = function(runtimeScene) {
+gdjs.All_32songs_32Death_32SceneCode.eventsList0 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.popScene(runtimeScene);
+{gdjs.evtTools.input.showCursor(runtimeScene);
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("No"), gdjs.All_32songs_32Death_32SceneCode.GDNoObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.All_32songs_32Death_32SceneCode.GDNoObjects1.length;i<l;++i) {
+    if ( gdjs.All_32songs_32Death_32SceneCode.GDNoObjects1[i].IsClicked(null) ) {
+        isConditionTrue_0 = true;
+        gdjs.All_32songs_32Death_32SceneCode.GDNoObjects1[k] = gdjs.All_32songs_32Death_32SceneCode.GDNoObjects1[i];
+        ++k;
+    }
+}
+gdjs.All_32songs_32Death_32SceneCode.GDNoObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(36220052);
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.unloadAllAudio(runtimeScene);
+}
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Inicio", false);
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Yes"), gdjs.All_32songs_32Death_32SceneCode.GDYesObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.All_32songs_32Death_32SceneCode.GDYesObjects1.length;i<l;++i) {
+    if ( gdjs.All_32songs_32Death_32SceneCode.GDYesObjects1[i].IsClicked(null) ) {
+        isConditionTrue_0 = true;
+        gdjs.All_32songs_32Death_32SceneCode.GDYesObjects1[k] = gdjs.All_32songs_32Death_32SceneCode.GDYesObjects1[i];
+        ++k;
+    }
+}
+gdjs.All_32songs_32Death_32SceneCode.GDYesObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(36221332);
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(36).getAsString(), false);
 }
 }
 
@@ -85,143 +145,151 @@ if (isConditionTrue_0) {
 
 };
 
-gdjs.PauseCode.func = function(runtimeScene) {
+gdjs.All_32songs_32Death_32SceneCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.PauseCode.GDStatisticsObjects1.length = 0;
-gdjs.PauseCode.GDStatisticsObjects2.length = 0;
-gdjs.PauseCode.GDComboNumbersObjects1.length = 0;
-gdjs.PauseCode.GDComboNumbersObjects2.length = 0;
-gdjs.PauseCode.GDNotesSplashObjects1.length = 0;
-gdjs.PauseCode.GDNotesSplashObjects2.length = 0;
-gdjs.PauseCode.GDfpsObjects1.length = 0;
-gdjs.PauseCode.GDfpsObjects2.length = 0;
-gdjs.PauseCode.GDEngineTextObjects1.length = 0;
-gdjs.PauseCode.GDEngineTextObjects2.length = 0;
-gdjs.PauseCode.GDLongUpscrollBFObjects1.length = 0;
-gdjs.PauseCode.GDLongUpscrollBFObjects2.length = 0;
-gdjs.PauseCode.GDLongUpscrollOPPObjects1.length = 0;
-gdjs.PauseCode.GDLongUpscrollOPPObjects2.length = 0;
-gdjs.PauseCode.GDHitboxLeftObjects1.length = 0;
-gdjs.PauseCode.GDHitboxLeftObjects2.length = 0;
-gdjs.PauseCode.GDHitboxDownObjects1.length = 0;
-gdjs.PauseCode.GDHitboxDownObjects2.length = 0;
-gdjs.PauseCode.GDHitboxUpObjects1.length = 0;
-gdjs.PauseCode.GDHitboxUpObjects2.length = 0;
-gdjs.PauseCode.GDhitrightObjects1.length = 0;
-gdjs.PauseCode.GDhitrightObjects2.length = 0;
-gdjs.PauseCode.GDBFIconObjects1.length = 0;
-gdjs.PauseCode.GDBFIconObjects2.length = 0;
-gdjs.PauseCode.GDPauseButtonObjects1.length = 0;
-gdjs.PauseCode.GDPauseButtonObjects2.length = 0;
-gdjs.PauseCode.GDPauseButton2Objects1.length = 0;
-gdjs.PauseCode.GDPauseButton2Objects2.length = 0;
-gdjs.PauseCode.GDBlackScreenObjects1.length = 0;
-gdjs.PauseCode.GDBlackScreenObjects2.length = 0;
-gdjs.PauseCode.GDPauseTextObjects1.length = 0;
-gdjs.PauseCode.GDPauseTextObjects2.length = 0;
-gdjs.PauseCode.GDExitTextObjects1.length = 0;
-gdjs.PauseCode.GDExitTextObjects2.length = 0;
-gdjs.PauseCode.GDRestartTextObjects1.length = 0;
-gdjs.PauseCode.GDRestartTextObjects2.length = 0;
-gdjs.PauseCode.GDmisses_9595challenge_9595textObjects1.length = 0;
-gdjs.PauseCode.GDmisses_9595challenge_9595textObjects2.length = 0;
-gdjs.PauseCode.GDBfUpNoteObjects1.length = 0;
-gdjs.PauseCode.GDBfUpNoteObjects2.length = 0;
-gdjs.PauseCode.GDBfDownNoteObjects1.length = 0;
-gdjs.PauseCode.GDBfDownNoteObjects2.length = 0;
-gdjs.PauseCode.GDBfLeftNoteObjects1.length = 0;
-gdjs.PauseCode.GDBfLeftNoteObjects2.length = 0;
-gdjs.PauseCode.GDBfLeftNote4Objects1.length = 0;
-gdjs.PauseCode.GDBfLeftNote4Objects2.length = 0;
-gdjs.PauseCode.GDBfDownNote5Objects1.length = 0;
-gdjs.PauseCode.GDBfDownNote5Objects2.length = 0;
-gdjs.PauseCode.GDBfUpNote6Objects1.length = 0;
-gdjs.PauseCode.GDBfUpNote6Objects2.length = 0;
-gdjs.PauseCode.GDBfRightNoteObjects1.length = 0;
-gdjs.PauseCode.GDBfRightNoteObjects2.length = 0;
-gdjs.PauseCode.GDBfRightNote7Objects1.length = 0;
-gdjs.PauseCode.GDBfRightNote7Objects2.length = 0;
-gdjs.PauseCode.GDOppIconObjects1.length = 0;
-gdjs.PauseCode.GDOppIconObjects2.length = 0;
-gdjs.PauseCode.GDtimerBarObjects1.length = 0;
-gdjs.PauseCode.GDtimerBarObjects2.length = 0;
-gdjs.PauseCode.GDtimeObjects1.length = 0;
-gdjs.PauseCode.GDtimeObjects2.length = 0;
-gdjs.PauseCode.GDtimerBar2Objects1.length = 0;
-gdjs.PauseCode.GDtimerBar2Objects2.length = 0;
-gdjs.PauseCode.GDRatinsPopUpObjects1.length = 0;
-gdjs.PauseCode.GDRatinsPopUpObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDRestartObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDRestartObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDYesObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDYesObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDNoObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDNoObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBackObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBackObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDbflolObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDbflolObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDStatisticsObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDStatisticsObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDComboNumbersObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDComboNumbersObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDNotesSplashObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDNotesSplashObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDfpsObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDfpsObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDEngineTextObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDEngineTextObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongUpscrollBFObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongUpscrollBFObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongUpscrollOPPObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongUpscrollOPPObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxLeftObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxLeftObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxDownObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxDownObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxUpObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxUpObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDhitrightObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDhitrightObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBFIconObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBFIconObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDPauseButtonObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDPauseButtonObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDPauseButton2Objects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDPauseButton2Objects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBlackScreenObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBlackScreenObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDPauseTextObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDPauseTextObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDExitTextObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDExitTextObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDRestartTextObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDRestartTextObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDmisses_9595challenge_9595textObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDmisses_9595challenge_9595textObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfUpNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfUpNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfDownNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfDownNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfLeftNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfLeftNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfRightNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfRightNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppIconObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppIconObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDtimerBarObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDtimerBarObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDtimeObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDtimeObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDtimerBar2Objects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDtimerBar2Objects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDRatinsPopUpObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDRatinsPopUpObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongNoteObjects2.length = 0;
 
-gdjs.PauseCode.eventsList0(runtimeScene);
-gdjs.PauseCode.GDStatisticsObjects1.length = 0;
-gdjs.PauseCode.GDStatisticsObjects2.length = 0;
-gdjs.PauseCode.GDComboNumbersObjects1.length = 0;
-gdjs.PauseCode.GDComboNumbersObjects2.length = 0;
-gdjs.PauseCode.GDNotesSplashObjects1.length = 0;
-gdjs.PauseCode.GDNotesSplashObjects2.length = 0;
-gdjs.PauseCode.GDfpsObjects1.length = 0;
-gdjs.PauseCode.GDfpsObjects2.length = 0;
-gdjs.PauseCode.GDEngineTextObjects1.length = 0;
-gdjs.PauseCode.GDEngineTextObjects2.length = 0;
-gdjs.PauseCode.GDLongUpscrollBFObjects1.length = 0;
-gdjs.PauseCode.GDLongUpscrollBFObjects2.length = 0;
-gdjs.PauseCode.GDLongUpscrollOPPObjects1.length = 0;
-gdjs.PauseCode.GDLongUpscrollOPPObjects2.length = 0;
-gdjs.PauseCode.GDHitboxLeftObjects1.length = 0;
-gdjs.PauseCode.GDHitboxLeftObjects2.length = 0;
-gdjs.PauseCode.GDHitboxDownObjects1.length = 0;
-gdjs.PauseCode.GDHitboxDownObjects2.length = 0;
-gdjs.PauseCode.GDHitboxUpObjects1.length = 0;
-gdjs.PauseCode.GDHitboxUpObjects2.length = 0;
-gdjs.PauseCode.GDhitrightObjects1.length = 0;
-gdjs.PauseCode.GDhitrightObjects2.length = 0;
-gdjs.PauseCode.GDBFIconObjects1.length = 0;
-gdjs.PauseCode.GDBFIconObjects2.length = 0;
-gdjs.PauseCode.GDPauseButtonObjects1.length = 0;
-gdjs.PauseCode.GDPauseButtonObjects2.length = 0;
-gdjs.PauseCode.GDPauseButton2Objects1.length = 0;
-gdjs.PauseCode.GDPauseButton2Objects2.length = 0;
-gdjs.PauseCode.GDBlackScreenObjects1.length = 0;
-gdjs.PauseCode.GDBlackScreenObjects2.length = 0;
-gdjs.PauseCode.GDPauseTextObjects1.length = 0;
-gdjs.PauseCode.GDPauseTextObjects2.length = 0;
-gdjs.PauseCode.GDExitTextObjects1.length = 0;
-gdjs.PauseCode.GDExitTextObjects2.length = 0;
-gdjs.PauseCode.GDRestartTextObjects1.length = 0;
-gdjs.PauseCode.GDRestartTextObjects2.length = 0;
-gdjs.PauseCode.GDmisses_9595challenge_9595textObjects1.length = 0;
-gdjs.PauseCode.GDmisses_9595challenge_9595textObjects2.length = 0;
-gdjs.PauseCode.GDBfUpNoteObjects1.length = 0;
-gdjs.PauseCode.GDBfUpNoteObjects2.length = 0;
-gdjs.PauseCode.GDBfDownNoteObjects1.length = 0;
-gdjs.PauseCode.GDBfDownNoteObjects2.length = 0;
-gdjs.PauseCode.GDBfLeftNoteObjects1.length = 0;
-gdjs.PauseCode.GDBfLeftNoteObjects2.length = 0;
-gdjs.PauseCode.GDBfLeftNote4Objects1.length = 0;
-gdjs.PauseCode.GDBfLeftNote4Objects2.length = 0;
-gdjs.PauseCode.GDBfDownNote5Objects1.length = 0;
-gdjs.PauseCode.GDBfDownNote5Objects2.length = 0;
-gdjs.PauseCode.GDBfUpNote6Objects1.length = 0;
-gdjs.PauseCode.GDBfUpNote6Objects2.length = 0;
-gdjs.PauseCode.GDBfRightNoteObjects1.length = 0;
-gdjs.PauseCode.GDBfRightNoteObjects2.length = 0;
-gdjs.PauseCode.GDBfRightNote7Objects1.length = 0;
-gdjs.PauseCode.GDBfRightNote7Objects2.length = 0;
-gdjs.PauseCode.GDOppIconObjects1.length = 0;
-gdjs.PauseCode.GDOppIconObjects2.length = 0;
-gdjs.PauseCode.GDtimerBarObjects1.length = 0;
-gdjs.PauseCode.GDtimerBarObjects2.length = 0;
-gdjs.PauseCode.GDtimeObjects1.length = 0;
-gdjs.PauseCode.GDtimeObjects2.length = 0;
-gdjs.PauseCode.GDtimerBar2Objects1.length = 0;
-gdjs.PauseCode.GDtimerBar2Objects2.length = 0;
-gdjs.PauseCode.GDRatinsPopUpObjects1.length = 0;
-gdjs.PauseCode.GDRatinsPopUpObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.eventsList0(runtimeScene);
+gdjs.All_32songs_32Death_32SceneCode.GDRestartObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDRestartObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDYesObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDYesObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDNoObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDNoObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBackObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBackObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDbflolObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDbflolObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDStatisticsObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDStatisticsObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDComboNumbersObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDComboNumbersObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDNotesSplashObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDNotesSplashObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDfpsObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDfpsObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDEngineTextObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDEngineTextObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongUpscrollBFObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongUpscrollBFObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongUpscrollOPPObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongUpscrollOPPObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxLeftObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxLeftObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxDownObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxDownObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxUpObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDHitboxUpObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDhitrightObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDhitrightObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBFIconObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBFIconObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDPauseButtonObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDPauseButtonObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDPauseButton2Objects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDPauseButton2Objects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBlackScreenObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBlackScreenObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDPauseTextObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDPauseTextObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDExitTextObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDExitTextObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDRestartTextObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDRestartTextObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDmisses_9595challenge_9595textObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDmisses_9595challenge_9595textObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfUpNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfUpNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfDownNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfDownNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfLeftNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfLeftNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfRightNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDBfRightNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppIconObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppIconObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDtimerBarObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDtimerBarObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDtimeObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDtimeObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDtimerBar2Objects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDtimerBar2Objects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDRatinsPopUpObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDRatinsPopUpObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongNoteObjects2.length = 0;
 
 
 return;
 
 }
 
-gdjs['PauseCode'] = gdjs.PauseCode;
+gdjs['All_32songs_32Death_32SceneCode'] = gdjs.All_32songs_32Death_32SceneCode;

@@ -9,7 +9,7 @@ gdjs.evtsExt__AudioByName__PlaySoundOnChannelByName = {};
 gdjs.evtsExt__AudioByName__PlaySoundOnChannelByName.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__AudioByName__PlaySoundOnChannelByName.userFunc0x2a8d098 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__AudioByName__PlaySoundOnChannelByName.userFunc0x16c7cc8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const soundManager = runtimeScene.getGame().getSoundManager();
 soundManager.playSoundOnChannel(
@@ -25,7 +25,7 @@ gdjs.evtsExt__AudioByName__PlaySoundOnChannelByName.eventsList0 = function(runti
 {
 
 
-gdjs.evtsExt__AudioByName__PlaySoundOnChannelByName.userFunc0x2a8d098(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AudioByName__PlaySoundOnChannelByName.userFunc0x16c7cc8(runtimeScene, eventsFunctionContext);
 
 }
 
