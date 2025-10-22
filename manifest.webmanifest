@@ -1,8 +1,8 @@
 {
-  "name": "Friday Night Funkin' Ski Mod TEST - GDev Engine",
-  "short_name": "Friday Night Funkin' Ski Mod TEST - GDev Engine",
-  "id": "com.fnfgdev.lucyyuih",
-  "description": "a FNF engine built from scratch in GDevelop that supports the original game's Chart\n\nproject is under development, incomplete, many more features will come in the future :D\n\n💞Friday Night Funkin' By FunkinCrew",
+  "name": "Friday Night Funkin' Ski Mod - GDev Engine",
+  "short_name": "Friday Night Funkin' Ski Mod - GDev Engine",
+  "id": "com.fnfskigdev.lucyyuih",
+  "description": "a (TEST) Port of the \"Ski Sings for You\" Mod for GDev Engine\n\n-Updated Engine: V0.1.3b\n\n<3\n\na FNF engine built from scratch in GDevelop that supports the original game's Chart\n\nproject is under development, incomplete, many more features will come in the future :D\n\nCredits:\n\n",
   "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",

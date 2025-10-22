@@ -9,7 +9,7 @@ gdjs.evtsExt__Gamepads__Deadzone = {};
 gdjs.evtsExt__Gamepads__Deadzone.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__Deadzone.userFunc0x782468 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__Deadzone.userFunc0x86fb58 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 //Get function parameter
 const playerId = eventsFunctionContext.getArgument("player_ID") - 1;
@@ -36,7 +36,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__Gamepads__Deadzone.userFunc0x782468(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__Deadzone.userFunc0x86fb58(runtimeScene, eventsFunctionContext);
 
 }
 
