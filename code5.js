@@ -20867,16 +20867,6 @@ if (isConditionTrue_0) {
 
 {
 
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("LongUpscrollBF"), gdjs.meowCode.GDLongUpscrollBFObjects1);
 
 for (gdjs.meowCode.forEachIndex2 = 0;gdjs.meowCode.forEachIndex2 < gdjs.meowCode.GDLongUpscrollBFObjects1.length;++gdjs.meowCode.forEachIndex2) {

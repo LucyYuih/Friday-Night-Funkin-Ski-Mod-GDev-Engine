@@ -21218,16 +21218,6 @@ if (isConditionTrue_0) {
 
 {
 
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("LongUpscrollBF"), gdjs.week2Code.GDLongUpscrollBFObjects1);
 
 for (gdjs.week2Code.forEachIndex2 = 0;gdjs.week2Code.forEachIndex2 < gdjs.week2Code.GDLongUpscrollBFObjects1.length;++gdjs.week2Code.forEachIndex2) {

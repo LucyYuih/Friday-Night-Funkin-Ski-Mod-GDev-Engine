@@ -21046,16 +21046,6 @@ if (isConditionTrue_0) {
 
 {
 
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("LongUpscrollBF"), gdjs.sportyCode.GDLongUpscrollBFObjects1);
 
 for (gdjs.sportyCode.forEachIndex2 = 0;gdjs.sportyCode.forEachIndex2 < gdjs.sportyCode.GDLongUpscrollBFObjects1.length;++gdjs.sportyCode.forEachIndex2) {
