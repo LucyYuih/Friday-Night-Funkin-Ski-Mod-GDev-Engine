@@ -61,6 +61,8 @@ gdjs.PRELOADMUSICSCode.GDRatinsPopUpObjects1= [];
 gdjs.PRELOADMUSICSCode.GDRatinsPopUpObjects2= [];
 gdjs.PRELOADMUSICSCode.GDLongNoteObjects1= [];
 gdjs.PRELOADMUSICSCode.GDLongNoteObjects2= [];
+gdjs.PRELOADMUSICSCode.GDnotesObjects1= [];
+gdjs.PRELOADMUSICSCode.GDnotesObjects2= [];
 
 
 gdjs.PRELOADMUSICSCode.eventsList0 = function(runtimeScene) {
@@ -175,6 +177,8 @@ gdjs.PRELOADMUSICSCode.GDRatinsPopUpObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDRatinsPopUpObjects2.length = 0;
 gdjs.PRELOADMUSICSCode.GDLongNoteObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDLongNoteObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDnotesObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDnotesObjects2.length = 0;
 
 gdjs.PRELOADMUSICSCode.eventsList0(runtimeScene);
 gdjs.PRELOADMUSICSCode.GDNewTextObjects1.length = 0;
@@ -237,6 +241,8 @@ gdjs.PRELOADMUSICSCode.GDRatinsPopUpObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDRatinsPopUpObjects2.length = 0;
 gdjs.PRELOADMUSICSCode.GDLongNoteObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDLongNoteObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDnotesObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDnotesObjects2.length = 0;
 
 
 return;

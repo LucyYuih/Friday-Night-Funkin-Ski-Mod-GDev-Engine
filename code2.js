@@ -67,6 +67,8 @@ gdjs.CreditsCode.GDRatinsPopUpObjects1= [];
 gdjs.CreditsCode.GDRatinsPopUpObjects2= [];
 gdjs.CreditsCode.GDLongNoteObjects1= [];
 gdjs.CreditsCode.GDLongNoteObjects2= [];
+gdjs.CreditsCode.GDnotesObjects1= [];
+gdjs.CreditsCode.GDnotesObjects2= [];
 
 
 gdjs.CreditsCode.eventsList0 = function(runtimeScene) {
@@ -101,7 +103,7 @@ for (var i = 0, k = 0, l = gdjs.CreditsCode.GDPauseButton3Objects1.length;i<l;++
 gdjs.CreditsCode.GDPauseButton3Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(35133644);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34834868);
 }
 }
 if (isConditionTrue_0) {
@@ -198,6 +200,8 @@ gdjs.CreditsCode.GDRatinsPopUpObjects1.length = 0;
 gdjs.CreditsCode.GDRatinsPopUpObjects2.length = 0;
 gdjs.CreditsCode.GDLongNoteObjects1.length = 0;
 gdjs.CreditsCode.GDLongNoteObjects2.length = 0;
+gdjs.CreditsCode.GDnotesObjects1.length = 0;
+gdjs.CreditsCode.GDnotesObjects2.length = 0;
 
 gdjs.CreditsCode.eventsList0(runtimeScene);
 gdjs.CreditsCode.GDfps2Objects1.length = 0;
@@ -266,6 +270,8 @@ gdjs.CreditsCode.GDRatinsPopUpObjects1.length = 0;
 gdjs.CreditsCode.GDRatinsPopUpObjects2.length = 0;
 gdjs.CreditsCode.GDLongNoteObjects1.length = 0;
 gdjs.CreditsCode.GDLongNoteObjects2.length = 0;
+gdjs.CreditsCode.GDnotesObjects1.length = 0;
+gdjs.CreditsCode.GDnotesObjects2.length = 0;
 
 
 return;
