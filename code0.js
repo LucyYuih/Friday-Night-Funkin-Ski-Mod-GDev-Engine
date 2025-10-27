@@ -205,6 +205,12 @@ gdjs.MenuCode.GDOptionsText2Objects3= [];
 gdjs.MenuCode.GDOptionsText2Objects4= [];
 gdjs.MenuCode.GDOptionsText2Objects5= [];
 gdjs.MenuCode.GDOptionsText2Objects6= [];
+gdjs.MenuCode.GDleaderboardtextObjects1= [];
+gdjs.MenuCode.GDleaderboardtextObjects2= [];
+gdjs.MenuCode.GDleaderboardtextObjects3= [];
+gdjs.MenuCode.GDleaderboardtextObjects4= [];
+gdjs.MenuCode.GDleaderboardtextObjects5= [];
+gdjs.MenuCode.GDleaderboardtextObjects6= [];
 gdjs.MenuCode.GDStatisticsObjects1= [];
 gdjs.MenuCode.GDStatisticsObjects2= [];
 gdjs.MenuCode.GDStatisticsObjects3= [];
@@ -5945,7 +5951,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 }
 
 
-};gdjs.MenuCode.asyncCallback34597620 = function (runtimeScene, asyncObjectsList) {
+};gdjs.MenuCode.asyncCallback31128420 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.MenuCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("FullscreenText"), gdjs.MenuCode.GDFullscreenTextObjects2);
 
@@ -5957,7 +5963,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("FullscreenText"), gdjs.MenuCode.GDFu
 }
 gdjs.MenuCode.localVariables.length = 0;
 }
-gdjs.MenuCode.idToCallbackMap.set(34597620, gdjs.MenuCode.asyncCallback34597620);
+gdjs.MenuCode.idToCallbackMap.set(31128420, gdjs.MenuCode.asyncCallback31128420);
 gdjs.MenuCode.eventsList83 = function(runtimeScene) {
 
 {
@@ -5968,7 +5974,7 @@ gdjs.MenuCode.eventsList83 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.MenuCode.localVariables);
 for (const obj of gdjs.MenuCode.GDFullscreenTextObjects1) asyncObjectsList.addObject("FullscreenText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.MenuCode.asyncCallback34597620(runtimeScene, asyncObjectsList)), 34597620, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.MenuCode.asyncCallback31128420(runtimeScene, asyncObjectsList)), 31128420, asyncObjectsList);
 }
 }
 
@@ -6577,7 +6583,7 @@ for (var i = 0, k = 0, l = gdjs.MenuCode.GDFullscreenTextObjects1.length;i<l;++i
 gdjs.MenuCode.GDFullscreenTextObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34597548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23153900);
 }
 }
 }
@@ -6585,6 +6591,33 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.MenuCode.eventsList83(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("leaderboardtext"), gdjs.MenuCode.GDleaderboardtextObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.MenuCode.GDleaderboardtextObjects1.length;i<l;++i) {
+    if ( gdjs.MenuCode.GDleaderboardtextObjects1[i].getBehavior("MultitouchButton").IsPressed(null) ) {
+        isConditionTrue_0 = true;
+        gdjs.MenuCode.GDleaderboardtextObjects1[k] = gdjs.MenuCode.GDleaderboardtextObjects1[i];
+        ++k;
+    }
+}
+gdjs.MenuCode.GDleaderboardtextObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34597548);
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.leaderboards.displayLeaderboard(runtimeScene, "2ab47441-bbff-47d4-87b5-047bb0f74e73", true);
+}
 }
 
 }
@@ -6757,6 +6790,12 @@ gdjs.MenuCode.GDOptionsText2Objects3.length = 0;
 gdjs.MenuCode.GDOptionsText2Objects4.length = 0;
 gdjs.MenuCode.GDOptionsText2Objects5.length = 0;
 gdjs.MenuCode.GDOptionsText2Objects6.length = 0;
+gdjs.MenuCode.GDleaderboardtextObjects1.length = 0;
+gdjs.MenuCode.GDleaderboardtextObjects2.length = 0;
+gdjs.MenuCode.GDleaderboardtextObjects3.length = 0;
+gdjs.MenuCode.GDleaderboardtextObjects4.length = 0;
+gdjs.MenuCode.GDleaderboardtextObjects5.length = 0;
+gdjs.MenuCode.GDleaderboardtextObjects6.length = 0;
 gdjs.MenuCode.GDStatisticsObjects1.length = 0;
 gdjs.MenuCode.GDStatisticsObjects2.length = 0;
 gdjs.MenuCode.GDStatisticsObjects3.length = 0;
@@ -7101,6 +7140,12 @@ gdjs.MenuCode.GDOptionsText2Objects3.length = 0;
 gdjs.MenuCode.GDOptionsText2Objects4.length = 0;
 gdjs.MenuCode.GDOptionsText2Objects5.length = 0;
 gdjs.MenuCode.GDOptionsText2Objects6.length = 0;
+gdjs.MenuCode.GDleaderboardtextObjects1.length = 0;
+gdjs.MenuCode.GDleaderboardtextObjects2.length = 0;
+gdjs.MenuCode.GDleaderboardtextObjects3.length = 0;
+gdjs.MenuCode.GDleaderboardtextObjects4.length = 0;
+gdjs.MenuCode.GDleaderboardtextObjects5.length = 0;
+gdjs.MenuCode.GDleaderboardtextObjects6.length = 0;
 gdjs.MenuCode.GDStatisticsObjects1.length = 0;
 gdjs.MenuCode.GDStatisticsObjects2.length = 0;
 gdjs.MenuCode.GDStatisticsObjects3.length = 0;
