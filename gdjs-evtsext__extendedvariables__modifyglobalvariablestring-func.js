@@ -9,7 +9,7 @@ gdjs.evtsExt__ExtendedVariables__ModifyGlobalVariableString = {};
 gdjs.evtsExt__ExtendedVariables__ModifyGlobalVariableString.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ExtendedVariables__ModifyGlobalVariableString.userFunc0x184ee60 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ExtendedVariables__ModifyGlobalVariableString.userFunc0x2d262e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const variable = runtimeScene.getGame().getVariables().get(eventsFunctionContext.getArgument("GlobalVariableName"));
 variable.setString(eventsFunctionContext.getArgument("GlobalVariableValue"));
@@ -19,7 +19,7 @@ gdjs.evtsExt__ExtendedVariables__ModifyGlobalVariableString.eventsList0 = functi
 {
 
 
-gdjs.evtsExt__ExtendedVariables__ModifyGlobalVariableString.userFunc0x184ee60(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ExtendedVariables__ModifyGlobalVariableString.userFunc0x2d262e0(runtimeScene, eventsFunctionContext);
 
 }
 

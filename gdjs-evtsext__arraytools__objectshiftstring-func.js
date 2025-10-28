@@ -10,7 +10,7 @@ gdjs.evtsExt__ArrayTools__ObjectShiftString.idToCallbackMap = new Map();
 gdjs.evtsExt__ArrayTools__ObjectShiftString.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__ArrayTools__ObjectShiftString.userFunc0x1a4e258 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__ObjectShiftString.userFunc0x2e7c498 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.Variable} */
 const array = eventsFunctionContext.getArgument("Array");
@@ -26,7 +26,7 @@ gdjs.evtsExt__ArrayTools__ObjectShiftString.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__ArrayTools__ObjectShiftString.userFunc0x1a4e258(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ArrayTools__ObjectShiftString.userFunc0x2e7c498(runtimeScene, eventsFunctionContext);
 
 }
 
