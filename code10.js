@@ -61,6 +61,18 @@ gdjs.PauseCode.GDLongNoteObjects1= [];
 gdjs.PauseCode.GDLongNoteObjects2= [];
 gdjs.PauseCode.GDnotesObjects1= [];
 gdjs.PauseCode.GDnotesObjects2= [];
+gdjs.PauseCode.GDOppLeftNoteObjects1= [];
+gdjs.PauseCode.GDOppLeftNoteObjects2= [];
+gdjs.PauseCode.GDOppDownNoteObjects1= [];
+gdjs.PauseCode.GDOppDownNoteObjects2= [];
+gdjs.PauseCode.GDOppUpNoteObjects1= [];
+gdjs.PauseCode.GDOppUpNoteObjects2= [];
+gdjs.PauseCode.GDOppRightNoteObjects1= [];
+gdjs.PauseCode.GDOppRightNoteObjects2= [];
+gdjs.PauseCode.GDLongOppObjects1= [];
+gdjs.PauseCode.GDLongOppObjects2= [];
+gdjs.PauseCode.GDLongNoteOppObjects1= [];
+gdjs.PauseCode.GDLongNoteOppObjects2= [];
 
 
 gdjs.PauseCode.eventsList0 = function(runtimeScene) {
@@ -144,6 +156,18 @@ gdjs.PauseCode.GDLongNoteObjects1.length = 0;
 gdjs.PauseCode.GDLongNoteObjects2.length = 0;
 gdjs.PauseCode.GDnotesObjects1.length = 0;
 gdjs.PauseCode.GDnotesObjects2.length = 0;
+gdjs.PauseCode.GDOppLeftNoteObjects1.length = 0;
+gdjs.PauseCode.GDOppLeftNoteObjects2.length = 0;
+gdjs.PauseCode.GDOppDownNoteObjects1.length = 0;
+gdjs.PauseCode.GDOppDownNoteObjects2.length = 0;
+gdjs.PauseCode.GDOppUpNoteObjects1.length = 0;
+gdjs.PauseCode.GDOppUpNoteObjects2.length = 0;
+gdjs.PauseCode.GDOppRightNoteObjects1.length = 0;
+gdjs.PauseCode.GDOppRightNoteObjects2.length = 0;
+gdjs.PauseCode.GDLongOppObjects1.length = 0;
+gdjs.PauseCode.GDLongOppObjects2.length = 0;
+gdjs.PauseCode.GDLongNoteOppObjects1.length = 0;
+gdjs.PauseCode.GDLongNoteOppObjects2.length = 0;
 
 gdjs.PauseCode.eventsList0(runtimeScene);
 gdjs.PauseCode.GDStatisticsObjects1.length = 0;
@@ -206,6 +230,18 @@ gdjs.PauseCode.GDLongNoteObjects1.length = 0;
 gdjs.PauseCode.GDLongNoteObjects2.length = 0;
 gdjs.PauseCode.GDnotesObjects1.length = 0;
 gdjs.PauseCode.GDnotesObjects2.length = 0;
+gdjs.PauseCode.GDOppLeftNoteObjects1.length = 0;
+gdjs.PauseCode.GDOppLeftNoteObjects2.length = 0;
+gdjs.PauseCode.GDOppDownNoteObjects1.length = 0;
+gdjs.PauseCode.GDOppDownNoteObjects2.length = 0;
+gdjs.PauseCode.GDOppUpNoteObjects1.length = 0;
+gdjs.PauseCode.GDOppUpNoteObjects2.length = 0;
+gdjs.PauseCode.GDOppRightNoteObjects1.length = 0;
+gdjs.PauseCode.GDOppRightNoteObjects2.length = 0;
+gdjs.PauseCode.GDLongOppObjects1.length = 0;
+gdjs.PauseCode.GDLongOppObjects2.length = 0;
+gdjs.PauseCode.GDLongNoteOppObjects1.length = 0;
+gdjs.PauseCode.GDLongNoteOppObjects2.length = 0;
 
 
 return;

@@ -71,6 +71,18 @@ gdjs.All_32songs_32Death_32SceneCode.GDLongNoteObjects1= [];
 gdjs.All_32songs_32Death_32SceneCode.GDLongNoteObjects2= [];
 gdjs.All_32songs_32Death_32SceneCode.GDnotesObjects1= [];
 gdjs.All_32songs_32Death_32SceneCode.GDnotesObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDOppLeftNoteObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDOppLeftNoteObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDOppDownNoteObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDOppDownNoteObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDOppUpNoteObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDOppUpNoteObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDOppRightNoteObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDOppRightNoteObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDLongOppObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDLongOppObjects2= [];
+gdjs.All_32songs_32Death_32SceneCode.GDLongNoteOppObjects1= [];
+gdjs.All_32songs_32Death_32SceneCode.GDLongNoteOppObjects2= [];
 
 
 gdjs.All_32songs_32Death_32SceneCode.eventsList0 = function(runtimeScene) {
@@ -105,7 +117,7 @@ for (var i = 0, k = 0, l = gdjs.All_32songs_32Death_32SceneCode.GDNoObjects1.len
 gdjs.All_32songs_32Death_32SceneCode.GDNoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37558092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(51695532);
 }
 }
 if (isConditionTrue_0) {
@@ -134,7 +146,7 @@ for (var i = 0, k = 0, l = gdjs.All_32songs_32Death_32SceneCode.GDYesObjects1.le
 gdjs.All_32songs_32Death_32SceneCode.GDYesObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37561996);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(51696812);
 }
 }
 if (isConditionTrue_0) {
@@ -220,6 +232,18 @@ gdjs.All_32songs_32Death_32SceneCode.GDLongNoteObjects1.length = 0;
 gdjs.All_32songs_32Death_32SceneCode.GDLongNoteObjects2.length = 0;
 gdjs.All_32songs_32Death_32SceneCode.GDnotesObjects1.length = 0;
 gdjs.All_32songs_32Death_32SceneCode.GDnotesObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppLeftNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppLeftNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppDownNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppDownNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppUpNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppUpNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppRightNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppRightNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongOppObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongOppObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongNoteOppObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongNoteOppObjects2.length = 0;
 
 gdjs.All_32songs_32Death_32SceneCode.eventsList0(runtimeScene);
 gdjs.All_32songs_32Death_32SceneCode.GDRestartObjects1.length = 0;
@@ -292,6 +316,18 @@ gdjs.All_32songs_32Death_32SceneCode.GDLongNoteObjects1.length = 0;
 gdjs.All_32songs_32Death_32SceneCode.GDLongNoteObjects2.length = 0;
 gdjs.All_32songs_32Death_32SceneCode.GDnotesObjects1.length = 0;
 gdjs.All_32songs_32Death_32SceneCode.GDnotesObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppLeftNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppLeftNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppDownNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppDownNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppUpNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppUpNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppRightNoteObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDOppRightNoteObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongOppObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongOppObjects2.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongNoteOppObjects1.length = 0;
+gdjs.All_32songs_32Death_32SceneCode.GDLongNoteOppObjects2.length = 0;
 
 
 return;

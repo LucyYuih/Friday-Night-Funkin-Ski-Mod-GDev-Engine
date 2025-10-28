@@ -63,6 +63,18 @@ gdjs.PRELOADMUSICSCode.GDLongNoteObjects1= [];
 gdjs.PRELOADMUSICSCode.GDLongNoteObjects2= [];
 gdjs.PRELOADMUSICSCode.GDnotesObjects1= [];
 gdjs.PRELOADMUSICSCode.GDnotesObjects2= [];
+gdjs.PRELOADMUSICSCode.GDOppLeftNoteObjects1= [];
+gdjs.PRELOADMUSICSCode.GDOppLeftNoteObjects2= [];
+gdjs.PRELOADMUSICSCode.GDOppDownNoteObjects1= [];
+gdjs.PRELOADMUSICSCode.GDOppDownNoteObjects2= [];
+gdjs.PRELOADMUSICSCode.GDOppUpNoteObjects1= [];
+gdjs.PRELOADMUSICSCode.GDOppUpNoteObjects2= [];
+gdjs.PRELOADMUSICSCode.GDOppRightNoteObjects1= [];
+gdjs.PRELOADMUSICSCode.GDOppRightNoteObjects2= [];
+gdjs.PRELOADMUSICSCode.GDLongOppObjects1= [];
+gdjs.PRELOADMUSICSCode.GDLongOppObjects2= [];
+gdjs.PRELOADMUSICSCode.GDLongNoteOppObjects1= [];
+gdjs.PRELOADMUSICSCode.GDLongNoteOppObjects2= [];
 
 
 gdjs.PRELOADMUSICSCode.eventsList0 = function(runtimeScene) {
@@ -179,6 +191,18 @@ gdjs.PRELOADMUSICSCode.GDLongNoteObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDLongNoteObjects2.length = 0;
 gdjs.PRELOADMUSICSCode.GDnotesObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDnotesObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppLeftNoteObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppLeftNoteObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppDownNoteObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppDownNoteObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppUpNoteObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppUpNoteObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppRightNoteObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppRightNoteObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDLongOppObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDLongOppObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDLongNoteOppObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDLongNoteOppObjects2.length = 0;
 
 gdjs.PRELOADMUSICSCode.eventsList0(runtimeScene);
 gdjs.PRELOADMUSICSCode.GDNewTextObjects1.length = 0;
@@ -243,6 +267,18 @@ gdjs.PRELOADMUSICSCode.GDLongNoteObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDLongNoteObjects2.length = 0;
 gdjs.PRELOADMUSICSCode.GDnotesObjects1.length = 0;
 gdjs.PRELOADMUSICSCode.GDnotesObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppLeftNoteObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppLeftNoteObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppDownNoteObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppDownNoteObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppUpNoteObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppUpNoteObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppRightNoteObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDOppRightNoteObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDLongOppObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDLongOppObjects2.length = 0;
+gdjs.PRELOADMUSICSCode.GDLongNoteOppObjects1.length = 0;
+gdjs.PRELOADMUSICSCode.GDLongNoteOppObjects2.length = 0;
 
 
 return;

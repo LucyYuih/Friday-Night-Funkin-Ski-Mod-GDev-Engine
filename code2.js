@@ -69,6 +69,18 @@ gdjs.CreditsCode.GDLongNoteObjects1= [];
 gdjs.CreditsCode.GDLongNoteObjects2= [];
 gdjs.CreditsCode.GDnotesObjects1= [];
 gdjs.CreditsCode.GDnotesObjects2= [];
+gdjs.CreditsCode.GDOppLeftNoteObjects1= [];
+gdjs.CreditsCode.GDOppLeftNoteObjects2= [];
+gdjs.CreditsCode.GDOppDownNoteObjects1= [];
+gdjs.CreditsCode.GDOppDownNoteObjects2= [];
+gdjs.CreditsCode.GDOppUpNoteObjects1= [];
+gdjs.CreditsCode.GDOppUpNoteObjects2= [];
+gdjs.CreditsCode.GDOppRightNoteObjects1= [];
+gdjs.CreditsCode.GDOppRightNoteObjects2= [];
+gdjs.CreditsCode.GDLongOppObjects1= [];
+gdjs.CreditsCode.GDLongOppObjects2= [];
+gdjs.CreditsCode.GDLongNoteOppObjects1= [];
+gdjs.CreditsCode.GDLongNoteOppObjects2= [];
 
 
 gdjs.CreditsCode.eventsList0 = function(runtimeScene) {
@@ -103,7 +115,7 @@ for (var i = 0, k = 0, l = gdjs.CreditsCode.GDPauseButton3Objects1.length;i<l;++
 gdjs.CreditsCode.GDPauseButton3Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(36334844);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(49480556);
 }
 }
 if (isConditionTrue_0) {
@@ -202,6 +214,18 @@ gdjs.CreditsCode.GDLongNoteObjects1.length = 0;
 gdjs.CreditsCode.GDLongNoteObjects2.length = 0;
 gdjs.CreditsCode.GDnotesObjects1.length = 0;
 gdjs.CreditsCode.GDnotesObjects2.length = 0;
+gdjs.CreditsCode.GDOppLeftNoteObjects1.length = 0;
+gdjs.CreditsCode.GDOppLeftNoteObjects2.length = 0;
+gdjs.CreditsCode.GDOppDownNoteObjects1.length = 0;
+gdjs.CreditsCode.GDOppDownNoteObjects2.length = 0;
+gdjs.CreditsCode.GDOppUpNoteObjects1.length = 0;
+gdjs.CreditsCode.GDOppUpNoteObjects2.length = 0;
+gdjs.CreditsCode.GDOppRightNoteObjects1.length = 0;
+gdjs.CreditsCode.GDOppRightNoteObjects2.length = 0;
+gdjs.CreditsCode.GDLongOppObjects1.length = 0;
+gdjs.CreditsCode.GDLongOppObjects2.length = 0;
+gdjs.CreditsCode.GDLongNoteOppObjects1.length = 0;
+gdjs.CreditsCode.GDLongNoteOppObjects2.length = 0;
 
 gdjs.CreditsCode.eventsList0(runtimeScene);
 gdjs.CreditsCode.GDfps2Objects1.length = 0;
@@ -272,6 +296,18 @@ gdjs.CreditsCode.GDLongNoteObjects1.length = 0;
 gdjs.CreditsCode.GDLongNoteObjects2.length = 0;
 gdjs.CreditsCode.GDnotesObjects1.length = 0;
 gdjs.CreditsCode.GDnotesObjects2.length = 0;
+gdjs.CreditsCode.GDOppLeftNoteObjects1.length = 0;
+gdjs.CreditsCode.GDOppLeftNoteObjects2.length = 0;
+gdjs.CreditsCode.GDOppDownNoteObjects1.length = 0;
+gdjs.CreditsCode.GDOppDownNoteObjects2.length = 0;
+gdjs.CreditsCode.GDOppUpNoteObjects1.length = 0;
+gdjs.CreditsCode.GDOppUpNoteObjects2.length = 0;
+gdjs.CreditsCode.GDOppRightNoteObjects1.length = 0;
+gdjs.CreditsCode.GDOppRightNoteObjects2.length = 0;
+gdjs.CreditsCode.GDLongOppObjects1.length = 0;
+gdjs.CreditsCode.GDLongOppObjects2.length = 0;
+gdjs.CreditsCode.GDLongNoteOppObjects1.length = 0;
+gdjs.CreditsCode.GDLongNoteOppObjects2.length = 0;
 
 
 return;

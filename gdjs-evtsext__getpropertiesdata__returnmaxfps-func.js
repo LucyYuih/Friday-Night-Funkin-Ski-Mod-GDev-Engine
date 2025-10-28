@@ -9,7 +9,7 @@ gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS = {};
 gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.userFunc0x115f3e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.userFunc0x2256930 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = runtimeScene.getGame().getGameData().properties.maxFPS;
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.userFunc0x115f3e8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__GetPropertiesData__ReturnMaxFPS.userFunc0x2256930(runtimeScene, eventsFunctionContext);
 
 }
 
