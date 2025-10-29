@@ -937,6 +937,8 @@ gdjs.InicioCode.GDbegfontObjects1.length = 0;
 }
 {runtimeScene.getGame().getVariables().getFromIndex(64).setBoolean(false);
 }
+{gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.func(runtimeScene, "1433132490243178627", null);
+}
 
 { //Subevents
 gdjs.InicioCode.eventsList2(runtimeScene);} //End of subevents

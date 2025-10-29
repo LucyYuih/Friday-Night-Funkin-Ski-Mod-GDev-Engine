@@ -11,7 +11,7 @@ gdjs.evtsExt__ObjectPickingTools__UnpickCondition.GDobjectObjects1= [];
 gdjs.evtsExt__ObjectPickingTools__UnpickCondition.GDobjectObjects2= [];
 
 
-gdjs.evtsExt__ObjectPickingTools__UnpickCondition.userFunc0x2ef6988 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ObjectPickingTools__UnpickCondition.userFunc0x17b8428 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const lists = eventsFunctionContext.getObjectsLists("object").items;
 for (const listName in lists)
@@ -23,7 +23,7 @@ gdjs.evtsExt__ObjectPickingTools__UnpickCondition.eventsList0 = function(runtime
 {
 
 
-gdjs.evtsExt__ObjectPickingTools__UnpickCondition.userFunc0x2ef6988(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ObjectPickingTools__UnpickCondition.userFunc0x17b8428(runtimeScene, eventsFunctionContext);
 
 }
 
