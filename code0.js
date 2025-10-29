@@ -223,6 +223,12 @@ gdjs.MenuCode.GDNameTextObjects3= [];
 gdjs.MenuCode.GDNameTextObjects4= [];
 gdjs.MenuCode.GDNameTextObjects5= [];
 gdjs.MenuCode.GDNameTextObjects6= [];
+gdjs.MenuCode.GDppointstextObjects1= [];
+gdjs.MenuCode.GDppointstextObjects2= [];
+gdjs.MenuCode.GDppointstextObjects3= [];
+gdjs.MenuCode.GDppointstextObjects4= [];
+gdjs.MenuCode.GDppointstextObjects5= [];
+gdjs.MenuCode.GDppointstextObjects6= [];
 gdjs.MenuCode.GDStatisticsObjects1= [];
 gdjs.MenuCode.GDStatisticsObjects2= [];
 gdjs.MenuCode.GDStatisticsObjects3= [];
@@ -1233,11 +1239,11 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 };gdjs.MenuCode.asyncCallback36853692 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.MenuCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("PlayerName"), gdjs.MenuCode.GDPlayerNameObjects2);
+gdjs.copyArray(asyncObjectsList.getObjects("PlayerName"), gdjs.MenuCode.GDPlayerNameObjects3);
 
-{runtimeScene.getGame().getVariables().getFromIndex(72).getChild("Name").setString((( gdjs.MenuCode.GDPlayerNameObjects2.length === 0 ) ? "" :gdjs.MenuCode.GDPlayerNameObjects2[0].getBehavior("Text").getText()));
+{runtimeScene.getGame().getVariables().getFromIndex(72).getChild("Name").setString((( gdjs.MenuCode.GDPlayerNameObjects3.length === 0 ) ? "" :gdjs.MenuCode.GDPlayerNameObjects3[0].getBehavior("Text").getText()));
 }
-{gdjs.evtTools.storage.writeStringInJSONFile("Player", "Name", (( gdjs.MenuCode.GDPlayerNameObjects2.length === 0 ) ? "" :gdjs.MenuCode.GDPlayerNameObjects2[0].getBehavior("Text").getText()));
+{gdjs.evtTools.storage.writeStringInJSONFile("Player", "Name", (( gdjs.MenuCode.GDPlayerNameObjects3.length === 0 ) ? "" :gdjs.MenuCode.GDPlayerNameObjects3[0].getBehavior("Text").getText()));
 }
 gdjs.MenuCode.localVariables.length = 0;
 }
@@ -1251,8 +1257,8 @@ gdjs.MenuCode.eventsList7 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.MenuCode.localVariables);
-for (const obj of gdjs.MenuCode.GDPlayerNameObjects1) asyncObjectsList.addObject("PlayerName", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.MenuCode.asyncCallback36853692(runtimeScene, asyncObjectsList)), 36853692, asyncObjectsList);
+for (const obj of gdjs.MenuCode.GDPlayerNameObjects2) asyncObjectsList.addObject("PlayerName", obj);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.MenuCode.asyncCallback36853692(runtimeScene, asyncObjectsList)), 36853692, asyncObjectsList);
 }
 }
 
@@ -1263,22 +1269,47 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("PlayerName"), gdjs.MenuCode.GDPlayerNameObjects1);
+gdjs.copyArray(runtimeScene.getObjects("PlayerName"), gdjs.MenuCode.GDPlayerNameObjects2);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.MenuCode.GDPlayerNameObjects1.length;i<l;++i) {
-    if ( gdjs.MenuCode.GDPlayerNameObjects1[i].getBehavior("Text").getText() != runtimeScene.getGame().getVariables().getFromIndex(72).getChild("Name").getAsString() ) {
+for (var i = 0, k = 0, l = gdjs.MenuCode.GDPlayerNameObjects2.length;i<l;++i) {
+    if ( gdjs.MenuCode.GDPlayerNameObjects2[i].getBehavior("Text").getText() != runtimeScene.getGame().getVariables().getFromIndex(72).getChild("Name").getAsString() ) {
         isConditionTrue_0 = true;
-        gdjs.MenuCode.GDPlayerNameObjects1[k] = gdjs.MenuCode.GDPlayerNameObjects1[i];
+        gdjs.MenuCode.GDPlayerNameObjects2[k] = gdjs.MenuCode.GDPlayerNameObjects2[i];
         ++k;
     }
 }
-gdjs.MenuCode.GDPlayerNameObjects1.length = k;
+gdjs.MenuCode.GDPlayerNameObjects2.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.MenuCode.eventsList7(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("ppointstext"), gdjs.MenuCode.GDppointstextObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.MenuCode.GDppointstextObjects1.length;i<l;++i) {
+    if ( gdjs.MenuCode.GDppointstextObjects1[i].getBehavior("Text").getText() != "POINTS: " + runtimeScene.getGame().getVariables().getFromIndex(72).getChild("Points").getAsString() ) {
+        isConditionTrue_0 = true;
+        gdjs.MenuCode.GDppointstextObjects1[k] = gdjs.MenuCode.GDppointstextObjects1[i];
+        ++k;
+    }
+}
+gdjs.MenuCode.GDppointstextObjects1.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.MenuCode.GDppointstextObjects1 */
+{for(var i = 0, len = gdjs.MenuCode.GDppointstextObjects1.length ;i < len;++i) {
+    gdjs.MenuCode.GDppointstextObjects1[i].getBehavior("Text").setText("POINTS: " + runtimeScene.getGame().getVariables().getFromIndex(72).getChild("Points").getAsString());
+}
+}
 }
 
 }
@@ -6945,6 +6976,12 @@ gdjs.MenuCode.GDNameTextObjects3.length = 0;
 gdjs.MenuCode.GDNameTextObjects4.length = 0;
 gdjs.MenuCode.GDNameTextObjects5.length = 0;
 gdjs.MenuCode.GDNameTextObjects6.length = 0;
+gdjs.MenuCode.GDppointstextObjects1.length = 0;
+gdjs.MenuCode.GDppointstextObjects2.length = 0;
+gdjs.MenuCode.GDppointstextObjects3.length = 0;
+gdjs.MenuCode.GDppointstextObjects4.length = 0;
+gdjs.MenuCode.GDppointstextObjects5.length = 0;
+gdjs.MenuCode.GDppointstextObjects6.length = 0;
 gdjs.MenuCode.GDStatisticsObjects1.length = 0;
 gdjs.MenuCode.GDStatisticsObjects2.length = 0;
 gdjs.MenuCode.GDStatisticsObjects3.length = 0;
@@ -7343,6 +7380,12 @@ gdjs.MenuCode.GDNameTextObjects3.length = 0;
 gdjs.MenuCode.GDNameTextObjects4.length = 0;
 gdjs.MenuCode.GDNameTextObjects5.length = 0;
 gdjs.MenuCode.GDNameTextObjects6.length = 0;
+gdjs.MenuCode.GDppointstextObjects1.length = 0;
+gdjs.MenuCode.GDppointstextObjects2.length = 0;
+gdjs.MenuCode.GDppointstextObjects3.length = 0;
+gdjs.MenuCode.GDppointstextObjects4.length = 0;
+gdjs.MenuCode.GDppointstextObjects5.length = 0;
+gdjs.MenuCode.GDppointstextObjects6.length = 0;
 gdjs.MenuCode.GDStatisticsObjects1.length = 0;
 gdjs.MenuCode.GDStatisticsObjects2.length = 0;
 gdjs.MenuCode.GDStatisticsObjects3.length = 0;

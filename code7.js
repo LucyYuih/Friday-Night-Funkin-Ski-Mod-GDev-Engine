@@ -14292,7 +14292,7 @@ gdjs.week2Code.eventsList170(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.week2Code.userFunc0x20e1da0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.week2Code.userFunc0x1903d68 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ===== Versão final: sem padding em pares nem no remanescente =====
 
@@ -14482,7 +14482,7 @@ gdjs.week2Code.eventsList174(runtimeScene, asyncObjectsList);} //End of subevent
 {
 
 
-gdjs.week2Code.userFunc0x20e1da0(runtimeScene);
+gdjs.week2Code.userFunc0x1903d68(runtimeScene);
 
 }
 
@@ -14655,7 +14655,7 @@ gdjs.week2Code.eventsList178(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.week2Code.userFunc0x2423830 = function GDJSInlineCode(runtimeScene) {
+};gdjs.week2Code.userFunc0x8c30e0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ===== Versão final: sem padding em pares nem no remanescente =====
 
@@ -14845,7 +14845,7 @@ gdjs.week2Code.eventsList182(runtimeScene, asyncObjectsList);} //End of subevent
 {
 
 
-gdjs.week2Code.userFunc0x2423830(runtimeScene);
+gdjs.week2Code.userFunc0x8c30e0(runtimeScene);
 
 }
 

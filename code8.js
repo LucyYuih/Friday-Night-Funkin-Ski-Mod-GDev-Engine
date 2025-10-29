@@ -14162,7 +14162,7 @@ gdjs.foolhardyCode.eventsList170(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.foolhardyCode.userFunc0x19109c0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.foolhardyCode.userFunc0x23d1420 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ===== Versão final: sem padding em pares nem no remanescente =====
 
@@ -14352,7 +14352,7 @@ gdjs.foolhardyCode.eventsList174(runtimeScene, asyncObjectsList);} //End of sube
 {
 
 
-gdjs.foolhardyCode.userFunc0x19109c0(runtimeScene);
+gdjs.foolhardyCode.userFunc0x23d1420(runtimeScene);
 
 }
 
@@ -14525,7 +14525,7 @@ gdjs.foolhardyCode.eventsList178(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.foolhardyCode.userFunc0x2751ef0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.foolhardyCode.userFunc0x23d0b78 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ===== Versão final: sem padding em pares nem no remanescente =====
 
@@ -14715,7 +14715,7 @@ gdjs.foolhardyCode.eventsList182(runtimeScene, asyncObjectsList);} //End of sube
 {
 
 
-gdjs.foolhardyCode.userFunc0x2751ef0(runtimeScene);
+gdjs.foolhardyCode.userFunc0x23d0b78(runtimeScene);
 
 }
 

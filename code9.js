@@ -14240,7 +14240,7 @@ gdjs.sportyCode.eventsList170(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.sportyCode.userFunc0x287c5e0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.sportyCode.userFunc0xe3ec50 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ===== Versão final: sem padding em pares nem no remanescente =====
 
@@ -14430,7 +14430,7 @@ gdjs.sportyCode.eventsList174(runtimeScene, asyncObjectsList);} //End of subeven
 {
 
 
-gdjs.sportyCode.userFunc0x287c5e0(runtimeScene);
+gdjs.sportyCode.userFunc0xe3ec50(runtimeScene);
 
 }
 
@@ -14603,7 +14603,7 @@ gdjs.sportyCode.eventsList178(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.sportyCode.userFunc0x18586a0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.sportyCode.userFunc0x1905548 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ===== Versão final: sem padding em pares nem no remanescente =====
 
@@ -14793,7 +14793,7 @@ gdjs.sportyCode.eventsList182(runtimeScene, asyncObjectsList);} //End of subeven
 {
 
 
-gdjs.sportyCode.userFunc0x18586a0(runtimeScene);
+gdjs.sportyCode.userFunc0x1905548(runtimeScene);
 
 }
 
