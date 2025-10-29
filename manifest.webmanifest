@@ -1,8 +1,8 @@
 {
-  "name": "(TEST) Friday Night Funkin' Ski Mod - GDev Engine",
-  "short_name": "(TEST) Friday Night Funkin' Ski Mod - GDev Engine",
+  "name": "Friday Night Funkin' Ski Mod - GDev Engine",
+  "short_name": "Friday Night Funkin' Ski Mod - GDev Engine",
   "id": "com.fnfskigdev.lucyyuih",
-  "description": "a (TEST) Port of the \"Ski Sings for You\" Mod for GDev Engine\n\n-Updated Engine: V0.1.4t3\n-added login\n\n<3\n\na FNF engine built from scratch in GDevelop that supports the original game's Chart\n\nproject is under development, incomplete, many more features will come in the future :D\n\nCredits:\nDirector(s)\nSoniverseU\nBluefrok\n\nComposer(s)\nLvusm\nHooda the Antagonist\nRozebud\nBiddle3\n\n----\nLeaderboards and points \ninspired by Psych Online by Snirozu",
+  "description": "a Port of the \"Ski Sings for You\" Mod for GDev Engine\n\n-Updated Engine: V0.1.4\n-fixed ratings\n-fixed Fixed: when returning to the menu, it goes back to the 'Press Enter to Begin' screen\n-added credits option\n\n<3\n\na FNF engine built from scratch in GDevelop that supports the original game's Chart\n\nproject is under development, incomplete, many more features will come in the future :D\n\nCredits:\nDirector(s)\nSoniverseU\nBluefrok\n\nComposer(s)\nLvusm\nHooda the Antagonist\nRozebud\nBiddle3\n\n----\nLeaderboards and points \ninspired by Psych Online by Snirozu\n\nGDev Engine by LucyYuih",
   "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",

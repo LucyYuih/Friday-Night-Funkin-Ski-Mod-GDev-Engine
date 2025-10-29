@@ -9,6 +9,8 @@ gdjs.CreditsCode.GDSquareWhiteSliderObjects1= [];
 gdjs.CreditsCode.GDSquareWhiteSliderObjects2= [];
 gdjs.CreditsCode.GDbackObjects1= [];
 gdjs.CreditsCode.GDbackObjects2= [];
+gdjs.CreditsCode.GDBlackObjects1= [];
+gdjs.CreditsCode.GDBlackObjects2= [];
 gdjs.CreditsCode.GDStatisticsObjects1= [];
 gdjs.CreditsCode.GDStatisticsObjects2= [];
 gdjs.CreditsCode.GDComboNumbersObjects1= [];
@@ -92,7 +94,12 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Black"), gdjs.CreditsCode.GDBlackObjects1);
 {gdjs.evtTools.window.setGameResolutionSize(runtimeScene, 1920, 1080);
+}
+{for(var i = 0, len = gdjs.CreditsCode.GDBlackObjects1.length ;i < len;++i) {
+    gdjs.CreditsCode.GDBlackObjects1[i].getBehavior("Tween").addObjectPositionYTween2("black", 1200, "linear", 1, false);
+}
 }
 }
 
@@ -115,7 +122,7 @@ for (var i = 0, k = 0, l = gdjs.CreditsCode.GDPauseButton3Objects1.length;i<l;++
 gdjs.CreditsCode.GDPauseButton3Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(36220708);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(36222308);
 }
 }
 if (isConditionTrue_0) {
@@ -154,6 +161,8 @@ gdjs.CreditsCode.GDSquareWhiteSliderObjects1.length = 0;
 gdjs.CreditsCode.GDSquareWhiteSliderObjects2.length = 0;
 gdjs.CreditsCode.GDbackObjects1.length = 0;
 gdjs.CreditsCode.GDbackObjects2.length = 0;
+gdjs.CreditsCode.GDBlackObjects1.length = 0;
+gdjs.CreditsCode.GDBlackObjects2.length = 0;
 gdjs.CreditsCode.GDStatisticsObjects1.length = 0;
 gdjs.CreditsCode.GDStatisticsObjects2.length = 0;
 gdjs.CreditsCode.GDComboNumbersObjects1.length = 0;
@@ -236,6 +245,8 @@ gdjs.CreditsCode.GDSquareWhiteSliderObjects1.length = 0;
 gdjs.CreditsCode.GDSquareWhiteSliderObjects2.length = 0;
 gdjs.CreditsCode.GDbackObjects1.length = 0;
 gdjs.CreditsCode.GDbackObjects2.length = 0;
+gdjs.CreditsCode.GDBlackObjects1.length = 0;
+gdjs.CreditsCode.GDBlackObjects2.length = 0;
 gdjs.CreditsCode.GDStatisticsObjects1.length = 0;
 gdjs.CreditsCode.GDStatisticsObjects2.length = 0;
 gdjs.CreditsCode.GDComboNumbersObjects1.length = 0;

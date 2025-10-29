@@ -9,7 +9,7 @@ gdjs.evtsExt__GetPropertiesData__ReturnGameVersion = {};
 gdjs.evtsExt__GetPropertiesData__ReturnGameVersion.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__GetPropertiesData__ReturnGameVersion.userFunc0x1a691f8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__GetPropertiesData__ReturnGameVersion.userFunc0x113c7b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = runtimeScene.getGame().getGameData().properties.version;
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__GetPropertiesData__ReturnGameVersion.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__GetPropertiesData__ReturnGameVersion.userFunc0x1a691f8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__GetPropertiesData__ReturnGameVersion.userFunc0x113c7b0(runtimeScene, eventsFunctionContext);
 
 }
 

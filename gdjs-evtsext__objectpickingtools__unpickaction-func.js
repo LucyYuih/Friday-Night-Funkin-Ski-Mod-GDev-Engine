@@ -10,7 +10,7 @@ gdjs.evtsExt__ObjectPickingTools__UnpickAction.idToCallbackMap = new Map();
 gdjs.evtsExt__ObjectPickingTools__UnpickAction.GDobjectObjects1= [];
 
 
-gdjs.evtsExt__ObjectPickingTools__UnpickAction.userFunc0x1e4a210 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ObjectPickingTools__UnpickAction.userFunc0x114f478 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const lists = eventsFunctionContext.getObjectsLists("object").items;
 for (const listName in lists)
@@ -22,7 +22,7 @@ gdjs.evtsExt__ObjectPickingTools__UnpickAction.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__ObjectPickingTools__UnpickAction.userFunc0x1e4a210(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ObjectPickingTools__UnpickAction.userFunc0x114f478(runtimeScene, eventsFunctionContext);
 
 }
 
