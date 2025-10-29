@@ -14526,7 +14526,7 @@ gdjs.sportyCode.eventsList174(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.sportyCode.userFunc0x1c316b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.sportyCode.userFunc0x1e07790 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // leitura segura de Variable (usa getAsString se disponível)
 function readVarSafe(varObj) {
@@ -14716,7 +14716,7 @@ gdjs.sportyCode.eventsList178(runtimeScene, asyncObjectsList);} //End of subeven
 {
 
 
-gdjs.sportyCode.userFunc0x1c316b0(runtimeScene);
+gdjs.sportyCode.userFunc0x1e07790(runtimeScene);
 
 }
 
@@ -14893,7 +14893,7 @@ gdjs.sportyCode.eventsList182(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.sportyCode.userFunc0x1befab8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.sportyCode.userFunc0x1bd20d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // leitura segura de Variable (usa getAsString se disponível)
 function readVarSafe(varObj) {
@@ -15083,7 +15083,7 @@ gdjs.sportyCode.eventsList186(runtimeScene, asyncObjectsList);} //End of subeven
 {
 
 
-gdjs.sportyCode.userFunc0x1befab8(runtimeScene);
+gdjs.sportyCode.userFunc0x1bd20d0(runtimeScene);
 
 }
 
