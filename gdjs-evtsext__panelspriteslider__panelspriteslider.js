@@ -1116,7 +1116,7 @@ gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.d
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(35186892);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(46627332);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__PanelSpriteSlider__PanelSpriteSlider.PanelSpriteSlider.prototype.doStepPostEventsContext.GDObjectObjects1);

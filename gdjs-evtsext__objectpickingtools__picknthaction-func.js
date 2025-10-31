@@ -10,7 +10,7 @@ gdjs.evtsExt__ObjectPickingTools__PickNthAction.idToCallbackMap = new Map();
 gdjs.evtsExt__ObjectPickingTools__PickNthAction.GDobjectObjects1= [];
 
 
-gdjs.evtsExt__ObjectPickingTools__PickNthAction.userFunc0x115af28 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ObjectPickingTools__PickNthAction.userFunc0x147ce10 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const lists = eventsFunctionContext.getObjectsLists("object").items;
 const n = eventsFunctionContext.getArgument("n");
@@ -34,7 +34,7 @@ gdjs.evtsExt__ObjectPickingTools__PickNthAction.eventsList0 = function(runtimeSc
 {
 
 
-gdjs.evtsExt__ObjectPickingTools__PickNthAction.userFunc0x115af28(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ObjectPickingTools__PickNthAction.userFunc0x147ce10(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -10,7 +10,7 @@ gdjs.evtsExt__ObjectPickingTools__PickFirstAction.idToCallbackMap = new Map();
 gdjs.evtsExt__ObjectPickingTools__PickFirstAction.GDobjectObjects1= [];
 
 
-gdjs.evtsExt__ObjectPickingTools__PickFirstAction.userFunc0x114efa8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ObjectPickingTools__PickFirstAction.userFunc0x1ead568 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const lists = eventsFunctionContext.getObjectsLists("object").items;
 
@@ -29,7 +29,7 @@ gdjs.evtsExt__ObjectPickingTools__PickFirstAction.eventsList0 = function(runtime
 {
 
 
-gdjs.evtsExt__ObjectPickingTools__PickFirstAction.userFunc0x114efa8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ObjectPickingTools__PickFirstAction.userFunc0x1ead568(runtimeScene, eventsFunctionContext);
 
 }
 
